@@ -1,0 +1,73 @@
+/*
+ * Shortcode: pricing.less
+ * -----------------------------------------------
+*/
+.pricing-table {
+	position: relative;
+	.transition(all 0.2s ease-in-out);
+	
+	.table-price {
+		color: @black-111;
+		font-size: 45px;
+
+		span {
+			font-size: 13px;
+			vertical-align: middle;
+		}
+	}
+
+	&.scale-effect.featured,
+	&.scale-effect:hover {
+		.scale(1.05);
+		z-index: 1;
+	}
+
+	.table-type {
+		display: inline;
+	}
+
+	.btn-signup {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.table-list {
+		list-style: none;
+		padding: 10px 0 30px;
+
+		li {
+			border-bottom: 0;
+			padding: 5px 0;
+
+			i {
+			  	margin-right: 8px;
+			}
+		}
+	}
+
+	.package-type {
+		span {
+			position: relative;
+			padding-left: 15px;
+			margin-left: 10px;
+			
+			&::after {
+				background: #2d915b;
+				content: "";
+				height: 20px;
+				left: -20px;
+				position: absolute;
+				top: 11px;
+				width: 20px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
