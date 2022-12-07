@@ -11,8 +11,8 @@
       
 <?php
 $servername = "localhost";
-$username = "projecto_homework3";
-$password = "4Graduation!!";
+$username = "amiresta_Final";
+$password = "Ii-e@x&i=.M.";
 $dbname = "amiresta_Medizone";
 
 // Create connection
