@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,7 +11,7 @@
     <div class="container">
       
 <?php
-$servername = "localhost";
+	$servername = "localhost";
 $username = "amiresta_Final";
 $password = "Ii-e@x&i=.M.";
 $dbname = "amiresta_Medizone";
@@ -73,10 +74,10 @@ if ($result->num_rows > 0) {
             <td><?=$row["Doctor_ID"]?></td>
             <td><a href="Doctor-section.php?id=<?=$row["Doctor_ID"]?>"><?=$row["Doctor_Name"]?></a></td>
             <td>
-              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editIDoctor<?=$row["Doctor_ID"]?>">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editDoctor<?=$row["Doctor_ID"]?>">
                 Edit
               </button>
-              <div class="modal fade" id="editDoctor<?=$row["Doctor_id"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editDoctor<?=$row["Doctor_ID"]?>Label" aria-hidden="true">
+              <div class="modal fade" id="editDoctor<?=$row["Doctor_ID"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editDoctor<?=$row["Doctor_ID"]?>Label" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
