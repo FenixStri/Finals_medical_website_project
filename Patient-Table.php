@@ -11,10 +11,10 @@
     <div class="container">
       
 <?php
-$servername = "localhost";
-$username = "projecto_homework3";
-$password = "Qa._@ZR@QtoU";
-$dbname = "projecto_homework3";
+	$servername = "localhost";
+$username = "amiresta_Final";
+$password = "Ii-e@x&i=.M.";
+$dbname = "amiresta_Medizone";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
