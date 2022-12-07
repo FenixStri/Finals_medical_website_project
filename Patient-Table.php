@@ -6,29 +6,7 @@
 	  
 	  
 	  
-	    	 id="header" class="header">
-    <div class="header-nav navbar-fixed-top header-dark navbar-white navbar-transparent bg-transparent-1 navbar-sticky-animated animated-active">
-      <div class="header-nav-wrapper">
-        <div class="container">
-          <nav id="menuzord-right" class="menuzord blue no-bg"><a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="http://mis4013finalproject.amiresta.oucreate.com"><img src="Medical-health-care-logo-designPNG.png" alt=""></a>
-            <ul class="menuzord-menu onepage-nav">
-              <li class="active"><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#depertments">Departments</a></li>
-              <li><a href="Doctor-Table.php">Doctors</a></li>
-              <li><a href="Patient-Table.php">Patients</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="#gallery">Gallery</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="active"><a data-toggle="modal" data-target="#BSParentModal" href="ajax-load/form-appointment.html">Request an appointment</a></li>
-              
-             
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-	  
+	    	
 	  
 	  
 	  
