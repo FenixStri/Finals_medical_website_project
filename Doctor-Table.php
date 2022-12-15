@@ -51,8 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 	    ?>
-	     <div style="background-image: url('https://staffgarden.com/wp-content/uploads/2016/03/sky-clouds-sky-blue-blue-background-wallpaper-1.jpg');
-background-size: cover; height:auto; padding-top: 80px; text-align: center;">
+	     
 	    
 	    
       <table class="table table-success table-striped">
