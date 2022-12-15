@@ -2,8 +2,16 @@
 <html>
 <body> 
 
-<div class="container">
-    <h1>Contact Us!</h1>
+
+  
+<div class="modal-header bg-theme-colored">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <h4 class="modal-title text-white" id="myModalLabel">Appointment Form</h4>
+</div>
+<div class="p-40">
+  <!-- Booking Form Starts -->
+  <div class="container">
+    <h1>Request an Appointment</h1>
   <form target="_blank" action="https://formsubmit.co/niclip44@ou.edu" method="POST">
     <div class="form-group">
       <div class="form-row">
@@ -26,5 +34,16 @@
   </form>
 </div>
 
-  </body>
+  <!-- Booking Form Validation-->
+ 
+  <!-- Booking Form Ends -->
+</div>
+<div class="modal-footer">
+</div>
+<!-- Footer Scripts -->
+<script>
+  //reload date and time picker
+  THEMEMASCOT.initialize.TM_datePicker();
+</script>
+    </body>
 </html>
