@@ -1096,30 +1096,28 @@
               </form>
 
               <!-- Contact Form Validation-->
-              <script type="text/javascript">
-                $("#contact_form").validate({
-                  submitHandler: function(form) {
-                    var form_btn = $(form).find('button[type="submit"]');
-                    var form_result_div = '#form-result';
-                    $(form_result_div).remove();
-                    form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                    var form_btn_old_msg = form_btn.html();
-                    form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                    $(form).ajaxSubmit({
-                      dataType:  'json',
-                      success: function(data) {
-                        if( data.status == 'true' ) {
-                          $(form).find('.form-control').val('');
-                        }
-                        form_btn.prop('disabled', false).html(form_btn_old_msg);
-                        $(form_result_div).html(data.message).fadeIn('slow');
-                        setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                      }
-                    });
-                  }
-                });
-              </script>
-            </div>
+            <div class="container">
+  <h1>FormSubmit Demo</h1>
+  <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+        <div class="col">
+          <input type="phone" name="phone" class="form-control" placeholder="Phone Number" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="8" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
             <div class="col-md-7">
               <div class="row mt-30">
                 <div class="col-xs-12 col-sm-6 col-md-6">
