@@ -60,11 +60,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
     
       <h1>Doctors</h1>
-      <table class="table table-striped">
+      <table class="table table-dark table-striped">
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Name</th>
+            <th>Doctor ID</th>
+            <th>Doctor Name</th>
             <th></th>
             <th></th>
           </tr>
