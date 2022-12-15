@@ -62,20 +62,9 @@
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
-<body>
-<div id="wrapper" class="clearfix">
-  <!-- preloader -->
-  <div id="preloader">
-    <div id="spinner">
-      <div class="preloader-dot-loading">
-        <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
-      </div>
-    </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-  </div>
-  
+
+
+
   <!-- Header -->
   <header id="header" class="header">
     <div class="header-nav navbar-fixed-top header-dark navbar-white navbar-transparent bg-transparent-1 navbar-sticky-animated animated-active">
@@ -101,4 +90,5 @@
       </div>
     </div>
   </header>
+  </head>
   <body>
