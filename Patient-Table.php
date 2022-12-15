@@ -1,9 +1,10 @@
 <!doctype html>
+<?php require_once('header1.php');?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Instructors</title>
+    <title>Patients</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
 	  
@@ -59,12 +60,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
     
-      <h1>Patients</h1>
-      <table class="table table-striped">
+      
+      <table class="table table-warning table-striped">
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Name</th>
+            <th>Patient ID</th>
+            <th>Patient Name</th>
             <th></th>
             <th></th>
           </tr>
@@ -131,9 +132,10 @@ $conn->close();
       </table>
       <br />
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addPatient">
+      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#addPatient">
         Add New
       </button>
+	     <a class="btn btn-warning" href="index.html" role="button">Home</a>
 
       <!-- Modal -->
       <div class="modal fade" id="addPatient" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="addPatientLabel" aria-hidden="true">
