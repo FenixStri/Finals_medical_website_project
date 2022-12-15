@@ -132,10 +132,7 @@ $conn->close();
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addDoctor">
         Add New
       </button>
-      <button type="button" class="btn btn-primary" href="index.html">
-        Home
-      </button>
-
+      <a class="btn btn-primary" href="index.html" role="button">Home</a>
       <!-- Modal -->
       <div class="modal fade" id="addDoctor" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="addDoctorLabel" aria-hidden="true">
         <div class="modal-dialog">
