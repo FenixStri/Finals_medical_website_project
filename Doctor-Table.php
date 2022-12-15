@@ -48,9 +48,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       break;
   }
 }
-	    
 
-<ul>      <h1>Doctors List</h1>
+	    ?>
+	    <h1>Doctors List</h1>
       <table class="table table-success table-striped">
         <thead>
           <tr>
