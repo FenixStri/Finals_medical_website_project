@@ -9,11 +9,11 @@
   <body>
     <div class="container">
       
-      <table class="table table-striped">
+      <table class="table table-dark table-striped">
   <thead>
     <tr>
-      <th>ID</th>
-      <th>Name</th>
+      <th>Doctor ID</th>
+      <th>Doctor Name</th>
       <th></th>
     </tr>
   </thead>
