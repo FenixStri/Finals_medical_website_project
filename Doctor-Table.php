@@ -48,6 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       break;
   }
 }
+	     <header id="header" class="header">
     <div class="header-nav navbar-fixed-top header-dark navbar-white navbar-transparent bg-transparent-1 navbar-sticky-animated animated-active">
       <div class="header-nav-wrapper">
         <div class="container">
@@ -69,6 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
       </div>
     </div>
+	</header>
 
       <h1>Doctors List</h1>
       <table class="table table-success table-striped">
