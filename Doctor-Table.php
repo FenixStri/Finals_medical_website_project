@@ -49,7 +49,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 }
 ?>
-    
+    <div style="background-image: url('https://wallpaperaccess.com/full/1429585.jpg');
+background-size: cover; height:750px; padding-top: 80px; text-align: center;">
       <h1>Doctors List</h1>
       <table class="table table-success table-striped">
         <thead>
@@ -125,6 +126,9 @@ $conn->close();
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addDoctor">
         Add New
       </button>
+      <button type="button" class="btn btn-primary" href="index.html">
+        Home
+      </button>
 
       <!-- Modal -->
       <div class="modal fade" id="addDoctor" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="addDoctorLabel" aria-hidden="true">
@@ -149,6 +153,7 @@ $conn->close();
         </div>
       </div>
     </div>
+	  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
