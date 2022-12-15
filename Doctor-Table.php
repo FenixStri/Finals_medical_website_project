@@ -64,6 +64,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               <li><a href="#contact">Contact</a></li>
               <li class="active"><a data-toggle="modal" data-target="#BSParentModal" href="ajax-load/form-appointment.html">Request an appointment</a></li>
               
+	
+          </nav>
+        </div>
+      </div>
+    </div>
+
       <h1>Doctors List</h1>
       <table class="table table-success table-striped">
         <thead>
@@ -77,11 +83,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <tbody>
              
             </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-
     
           
 <?php
