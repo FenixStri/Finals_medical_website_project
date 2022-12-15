@@ -129,10 +129,10 @@ $conn->close();
       </table>
       <br />
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addDoctor">
+      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addDoctor">
         Add New
       </button>
-      <a class="btn btn-primary" href="index.html" role="button">Home</a>
+      <a class="btn btn-success" href="index.html" role="button">Home</a>
       <!-- Modal -->
       <div class="modal fade" id="addDoctor" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="addDoctorLabel" aria-hidden="true">
         <div class="modal-dialog">
